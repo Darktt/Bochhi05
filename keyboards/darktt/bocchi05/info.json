@@ -1,0 +1,59 @@
+{
+    "keyboard_name": "Bocchi05",
+    "url": "https://github.com/Darktt/Bochhi05",
+    "manufacturer": "Darktt",
+    "maintainer": "Darktt",
+    "usb":
+    {
+        "vid": "0xDA00",
+        "pid": "0x0505",
+        "device_version": "1.1.0"
+    },
+    "processor": "atmega32u4",
+    "bootloader": "atmel-dfu",
+    "diode_direction": "COL2ROW",
+    "matrix_pins":
+    {
+        "cols":
+        [
+            "E6",
+            "D7",
+            "C6",
+            "F6"
+        ],
+        "rows":
+        [
+            "D1",
+            "D0",
+            "F7"
+        ]
+    },
+    "encoder":
+    {
+        "rotary":
+        [
+            {
+                "pin_a": "B1",
+                "pin_b": "B3",
+                "resolution": 2
+            }
+        ]
+    },
+    "layouts":
+    {
+        "LAYOUT_bocchi":
+        {
+            "layout":
+            [
+                {"matrix":[0,0],"x":0,"y":0},
+                {"matrix":[0,1],"x":1,"y":0},
+                {"matrix":[0,2],"x":2.25,"y":0,"w":1.25,"h":2},
+
+                {"matrix":[1,0],"x":0,"y":1,"w":1.25},
+                {"matrix":[1,1],"x":1.25,"y":1},
+
+                {"matrix":[2,3],"x":1.25,"y":1}
+            ]
+        }
+    }
+}
